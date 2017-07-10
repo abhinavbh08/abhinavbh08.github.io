@@ -9,9 +9,9 @@ So, I thought of doing analysis of jobs posted at naukri.com with the search key
 
 ## Scraping and storing the data
 
-So, I just googled web scraping with python and then a number of resources came up. The most useful I found for me was [this](https://www.dataquest.io/blog/web-scraping-tutorial-python/). I used requests library for getting the data from the page and then Beautiful soup, which is another python library for puling data out of HTML and XML files. Beautiful soup was used to extract the text from the HTML tags. 
+So, I just googled web scraping with python and then a number of resources came up. The most useful I found for me was [this](https://www.dataquest.io/blog/web-scraping-tutorial-python/). I used requests library for getting the data from the page and then Beautiful soup, which is another python library for pulling data out of HTML and XML files. Beautiful soup was used to extract the text from the HTML tags. 
 
-I went to the page of each of the job and extracted the relevant details, and then moved to next job. This work was repeated for 4 pages. In the end I had 183 jobs information. I did not extract more because the job postings were repeating themselves. 
+I wrote a script that went to the page of each of the job and extracted the relevant details, and then moved to next job. This work was repeated for 4 pages. In the end I had 183 jobs information. I did not extract more because the job postings were repeating themselves. 
  The things I scraped were -:
 - Job Description
 - Job Requirements
