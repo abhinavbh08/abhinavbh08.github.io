@@ -3,7 +3,7 @@ layout: post
 title: What I learned from analyzing jobs at naukri.com
 ---
 
-So, one day I was skimming through  just looking at the requirements of **data scientists** jobs in India, work experience, qualification, salary etc. As I was going through more and more pages, it was becoming difficult for me to keep track of all the things seen.
+So, one day I was skimming through naukri.com just looking at the requirements of **data scientists** jobs in India, work experience, qualification, salary etc. As I was going through more and more pages, it was becoming difficult for me to keep track of all the things seen.
 
 So, I thought of doing analysis of jobs posted at naukri.com with the search keyword Data Scientist. At that time I did not know where to start. What I did know was that the first step was scraping the data.
 
